@@ -27,5 +27,4 @@ function startTimer() {
 
 function stopTimer() {
   clearTimeout(timerId); //clearTimeout, takes one argument of the reference settimeout in this case is the timerId, and stop it from counting.
-  startBtn.disabled = false;
 }
